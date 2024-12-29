@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KRW ↔ VND Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <h1>KRW ↔ VND Converter</h1>
+    <label for="amount">Amount:</label>
+    <input type="text" id="amount" placeholder="Enter amount">
+    
+    <select id="currency">
+      <option value="KRW">KRW</option>
+      <option value="VND">VND</option>
+    </select>
+    
+    <button id="convert">Convert</button>
+    
+    <div id="result-container">
+      <div class="result-box" id="amount-currency-box"></div>
+      <div class="result-box" id="converted-amount-box"></div>
+    </div>
+    <p id="rate-timestamp"></p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
