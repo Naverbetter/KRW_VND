@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "KRW ↔ VND Converter",
+    "description": "A Chrome extension for converting KRW to VND and vice versa with real-time exchange rates.",
+    "version": "1.0",
+    "permissions": [],
+    "icons": {
+      "128": "icon.png"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    }
+  }
+  
